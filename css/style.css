@@ -1,0 +1,160 @@
+body {
+    background: url(/hinh/Image20240225155447.png) no-repeat center/cover;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 3%;
+}
+
+.layout {
+    width: 960px;
+    align-items: center;
+    padding: 0 1%;
+    background-color: white;
+}
+
+.Nav {
+    padding: 1% 4%;
+    align-items: center;
+    height: 5vh;
+    display: flex;
+    background-color: rgb(239, 136, 192);
+}
+
+.Nav a {
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 4%;
+}
+
+.search-box {
+    padding-left: 10%;
+}
+
+.label {
+    color: red;
+}
+
+.go {
+    background-color: aqua;
+    border-radius: 4px;
+    color: white;
+}
+
+.Header img {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+}
+
+.Section {
+    width: 70%;
+    background: linear-gradient(to right,#00ffff 0%,white 50%,#00ffff 100%);
+
+}
+
+.aside {
+    width: 30%;
+}
+
+.label-sec {
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+
+.main-sec {
+    display: flex;
+}
+
+.left-sec {
+    text-indent: 2em;
+    width: 50%;
+    padding: 2% 5%;
+}
+
+.right-sec {
+    font-size: 28;
+    width: 50%;
+    padding: 2% 5%;
+}
+
+.right-sec fieldset {
+    border-radius: 5px;
+    height: 90%;
+}
+
+.form {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 32;
+}
+
+.form label {
+    font-size: 32;
+}
+
+.form input {
+    border-radius: 5px;
+    width: 90%;
+}
+
+.radio-box, .sub-box {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.gender {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 32;
+}
+
+.sub-box {
+    margin-bottom: 10px;
+}
+
+.sub-box input {
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 20px;
+}
+
+.img-box h1 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-shadow: #00ffff 2px 2px;
+}
+
+.img-box img {
+    width: calc(970*0.3px);
+    padding: 0 5px;
+    padding-top: 10px;
+    border-top: dashed 2px;
+}
+
+.Footer {
+    padding: 3px;
+    height: 40px;
+    background-color: #99963c;
+    align-items: center;
+    display: flex;
+}
+
+.Footer p {
+    padding-left: 10px;
+    text-align: start;
+}
+
+.Footer h5 {
+    text-align: end;
+    padding-left: 50%;
+}
+
+.Nav a:hover {
+    color: violet;
+}
